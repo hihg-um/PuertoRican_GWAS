@@ -13,7 +13,7 @@ This repository contains scripts used in the study "Genome-wide association anal
 
 ## Contacts
 
-Bilcag Akgun - [Email](bxa644@med.miami.edu), Assistant Scientist, John P. Hussman Institute for Human Genomics, University of Miami Miller School of Medicine
+Bilcag Akgun - (<bxa644@med.miami.edu>), Assistant Scientist, John P. Hussman Institute for Human Genomics, University of Miami Miller School of Medicine
 
-Farid Rajabli - [Email](fxr213@med.miami.edu), Assistant Professort, John P. Hussman Institute for Human Genomics, University of Miami Miller School of Medicine
+Farid Rajabli - (<fxr213@med.miami.edu>), Assistant Professort, John P. Hussman Institute for Human Genomics, University of Miami Miller School of Medicine
 
