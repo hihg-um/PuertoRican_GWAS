@@ -21,4 +21,4 @@ cd $OUT_DIR
 
 plink2 --vcf  $VCF --make-bed --keep-allele-order --set-all-var-ids chr@:# --extract $REGION --out $PREFIX
 
-plink --bfile $REGION --a1-allele $REGION 2 1 '#' --r square spaces --out $PREFIX
+plink --bfile $REGION --a1-allele $REGION 2 1 '#' --r square --out $PREFIX
