@@ -16,7 +16,7 @@
 2. Fine mapping [scripts/2_Fine-mapping/2_CARMA.R](2_CARMA.R)
 	- LD matrix files generated in the single variant testing step can be used as an input ld files.
 	- Z-scores file format: 1st column = variant id & 2nd column = Z-values (The Z score can be calculated by dividing the BETA by the StandartError values ​​in the summary statistics file obtained as a result of the single variant testing.)
-	- Annotation matrix file format: 1st column = 0 & 2nd column = CADD PHRED values
+	- Annotation matrix file format: 1st column = CADD PHRED values
 	- Since each line in the input files will represent a variant, their order must be the same.
 
 ---
