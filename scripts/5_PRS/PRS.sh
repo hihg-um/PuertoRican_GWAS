@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [ "$#" -ne 3 ]
+if [ "$#" -ne 7 ]
 then
       echo "usage: $0 <Target_VCF> <Base_Reference> <Pheno_for_Plink> <Covar_File> <APOE_range_file> <OUT_Prefix> <OUT_DIR>"
       exit 1
