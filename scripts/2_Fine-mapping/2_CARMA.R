@@ -21,6 +21,9 @@ Z <- fread("Region1.Zscores.txt")   ### Z score for each variant in the locus
 annot <- read.table("Region1.AnnotationMatrix.txt", header=T)   ### CADD scores for each variant in the locus
 ld = read.csv("Region1.ld",sep="\t",header=F)   ###Ld matrix for the locus
 
+ld[ld == "nan"] <- 0  ###There should not be any NA values ​​in the LD matrix
+ld[is.na(ld)] <- 0
+
 ld.mat = matrix(as.vector(data.matrix(ld)), nrow=nrow(Z), ncol=nrow(Z))
  
 z.list<-list()
@@ -36,5 +39,5 @@ annot.list[[1]]<-as.matrix(cbind(1, annot))
 #-------------------------------------------------------------------------------
 # Run CARMA for each suggestive significant region
 #-------------------------------------------------------------------------------
-Region1.CARMA.results<-CARMA(z.list,ld.list,w.list=annot.list,lambda.list=lambda.list,outlier.switch=F,effect.size.prior="Cauchy")
+Region1.CARMA.results<-CARMA(z.list,ld.list,w.list=annot.list,lambda.list=lambda.list,outlier.switch=F)
 
