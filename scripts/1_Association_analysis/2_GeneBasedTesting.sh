@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [ "$#" -ne 3 ]
+if [ "$#" -ne 7 ]
 then
       echo "usage: $0 <Plink_Pruned> <VCF> <VCF_index> <AnnotationFile_for_groupTest> <Covar_File> <OUT_Prefix> <OUT_DIR>"
       exit 1
