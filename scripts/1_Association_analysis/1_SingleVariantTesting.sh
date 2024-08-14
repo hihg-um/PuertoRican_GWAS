@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [ "$#" -ne 3 ]
+if [ "$#" -ne 6 ]
 then
       echo "usage: $0 <Plink> <VCF> <VCF_index> <Covar_File> <OUT_Prefix> <OUT_DIR>"
       exit 1
