@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: GPL-2.0
+
 library(data.table)
 library(tidyverse)
 library(gtools)
