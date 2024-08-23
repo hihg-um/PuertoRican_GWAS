@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: GPL-2.0
+
 ##Required libraries
 library(GWASTools)
 library(GENESIS)
