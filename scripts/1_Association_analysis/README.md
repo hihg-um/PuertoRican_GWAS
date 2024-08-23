@@ -23,7 +23,7 @@
 
 ## Dependencies
 ### Tools
-- PLINK 1.9 and PLINK 2.0 (both versions are required)
+- PLINK 1.9
 - SAIGE
 ### R packages
 - GENESIS
