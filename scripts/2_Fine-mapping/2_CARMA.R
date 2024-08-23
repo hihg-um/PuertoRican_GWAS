@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: GPL-2.0
+
 ##Required libraries
 library(CARMA)
 library(data.table)
