@@ -1,4 +1,5 @@
 #!/bin/bash
+# SPDX-License-Identifier: GPL-2.0
 
 if [ "$#" -ne 6 ]
 then
@@ -24,9 +25,6 @@ cd $OUT_DIR
 
 plink --bfile $PLINK --maf 0.05 --indep-pairwise 50 5 0.2 
 plink --bfile $PLINK --extract plink.prune.in --make-bed --out $PLINK.pruned 
-
-dos2unix ${pheno}
-
 
 #------------------------------------------------------------------------------------------------
 # Step 1: fitting the null logistic mixed model - MODEL 1 (adjusted for AGE, SEX, and PCs)
